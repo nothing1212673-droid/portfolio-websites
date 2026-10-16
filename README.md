@@ -1,2 +1,40 @@
-# portfolio-websites
-Three responsive portfolio concepts: MORI Coffee, FORMA Objects and ORBIT Studio.
+# Selected works — 2026
+
+Три незалежні адаптивні сайти для портфоліо. Вигадані бренди; не роботи для реальних клієнтів.
+
+- **MORI Coffee** — specialty-кав’ярня: сезонне меню, фільтрація, демобронювання, завантаження деталей.
+- **FORMA Objects** — меблі та декор: шість SVG-ілюстрацій, пошук, категорії, сортування, кошик із кількістю й підсумком замовлення.
+- **ORBIT Studio** — digital-студія: фільтри кейсів, калькулятор демовартості, локальний бриф із завантаженням.
+
+## Live
+
+- [Галерея](https://nothing1212673-droid.github.io/portfolio-websites/)
+- [MORI](https://nothing1212673-droid.github.io/portfolio-websites/mori/)
+- [FORMA](https://nothing1212673-droid.github.io/portfolio-websites/forma/)
+- [ORBIT](https://nothing1212673-droid.github.io/portfolio-websites/orbit/)
+
+## Технології
+
+HTML, CSS, JavaScript без залежностей і збірки. Власна адаптивна верстка, доступні діалоги, клавіатурна навігація, reduced-motion, локальне зберігання. Системні шрифти. Кожен сайт міститься у власному index.html.
+
+## Локальний перегляд
+
+Запустіть `node serve.mjs` і відкрийте http://127.0.0.1:4175/.
+
+## GitHub Pages
+
+Settings → Pages → Deploy from a branch → main → / (root).
+Файл .nojekyll вимикає обробку Jekyll. Після коміту main GitHub Pages автоматично оновлює публікацію.
+
+## Редагування
+
+Кольори та адаптивність — у блоці style потрібного index.html; поведінка — у script. Меню MORI — масив menu. Товари FORMA — масив products. Формула ORBIT — функція calculate.
+
+## Обмеження
+
+Усі дані демонстраційні. Форми не надсилають повідомлень, бронювання не резервує столик, кошик не створює справжнє замовлення. Дані зберігаються тільки у localStorage; за блокування сховища сценарії працюють у пам’яті до оновлення сторінки. Ціни — приклади, не комерційна пропозиція. Pulse — статичний UI-концепт, а не реалізований застосунок.
+
+## Зображення
+
+Меблі та мініатюри ORBIT — власні SVG/CSS-ілюстрації. Фотографії MORI та інтер’єр FORMA — ілюстративні фото Unsplash, завантажуються з images.unsplash.com і потребують інтернету. Вони не документують реальні проєкти або заклади цих брендів. Джерела — ASSETS.md.
+
